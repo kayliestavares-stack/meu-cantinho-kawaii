@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Painel ♡</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="admin page">
+<div class="topline">୨୧　PAINEL DO MEU CANTINHO　୨୧</div>
+<h1>Personalizar meu site ♡</h1>
+<p class="notice">Protótipo local: as alterações ficam salvas somente neste navegador. Antes de publicar, vamos conectar login seguro e armazenamento online para que só você administre e todos vejam as mudanças.</p>
+<section class="glass editor">
+<label>Nome/título<input id="name" placeholder="meu cantinho ♡"></label>
+<label>Descrição<textarea id="bio" rows="2"></textarea></label>
+<label>Foto de perfil<input id="avatar" type="file" accept="image/*"></label>
+<label>Imagem de fundo<input id="background" type="file" accept="image/*"></label>
+<label>Cor principal<input id="accent" type="color" value="#e99abb"></label>
+<label>Links (um por linha: nome | URL)<textarea id="links" rows="5" placeholder="Twitch | https://twitch.tv/seuusuario&#10;Discord | https://discord.com"></textarea></label>
+<label>Fotos da galeria<input id="photos" type="file" accept="image/*" multiple></label>
+<label>Música de fundo<input id="music" type="file" accept="audio/*"></label>
+<div class="actions"><button id="save">Salvar alterações ♡</button><a class="button secondary" href="index.html">Ver meu site ↗</a><button id="reset" class="secondary">Restaurar exemplo</button></div>
+<p id="message" role="status"></p>
+</section>
+<footer><a href="index.html">← voltar para o site</a></footer>
+</main><script src="admin.js"></script></body></html>
